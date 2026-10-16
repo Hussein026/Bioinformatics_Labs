@@ -1,0 +1,365 @@
+"use strict";(function(){try{var record=function(name,detail){aps.get(accountId).queue.push(new CustomEvent(name,{detail}))};const accountId="6d0c7ea7-f036-437d-be93-21fc59c890c2";window._aps=window._aps||new Map;const aps=window._aps;aps.has(accountId)||aps.set(accountId,{queue:[],store:new Map}),record("_config/requestViewerCountry/define",{"code":"RO"});record("analytics/sampling/set",{"rates":{"error":0.001,"status":0.0001}});record("a3pes/video/activate",{"restrictions":{"block":{"accounts":["5220","e32f1423-28bc-43ed-8ab0-5ae6b4449cf8"]}}});record("a3pes/video/activate",{"bypassCountryCheck":true,"restrictions":{"allow":{"accountTypes":["ssw"]},"block":{"accounts":["e32f1423-28bc-43ed-8ab0-5ae6b4449cf8"]}}});record("a3pes/video/activate",{"bypassCountryCheck":true,"restrictions":{"allow":{"accountTypes":["mw"],"rate":0.5},"block":{"accounts":["5220"]}}});record("idVendors/enabled/set",{"bidParameterKeys":["liveintent","merkle","intimateMerger","pair","amx","33across","fTrack","captify","publink","anonymised","quantcast","idPlus","unifiedid","ddb_key_638","fabrick","uid","criteo","yahoo","liveRamp","id5","pubcommon","audigent","lightPublisherAudiences","lotame"]});record("idVendors/integration/execute",{"accountId":"6d0c7ea7-f036-437d-be93-21fc59c890c2","sourceId":"600","countryCode":"RO","vendorId":"33across","allowedRegions":["JP","US","AU","CA"],"blockedRegions":undefined,"vendorLoadedSampleRate":5,"domainPrecedence":[],"defaultScript":function anonymous(
+) {
+["JP","US","AU","CA"]?["JP","US","AU","CA"].includes("RO")&&(function anonymous(
+) {
+var lexiconPropertyId = '0015a00002qqhqLAAQ';
+if (lexiconPropertyId && lexiconPropertyId.charAt(0) !== '%') {
+  if (!window._33AcrossIdMappingsProvider) {
+    createlexiconScript(lexiconPropertyId);
+  }
+}
+
+function createlexiconScript(id) {
+  var lexiconScript = document.createElement('script');
+  lexiconScript.src = 'https://cdn-ima.33across.com/ima.js';
+  lexiconScript['onload'] = function (e) {
+    const my33AcrossIdProvider = new _33AcrossIdMappingsProvider({
+      pid: id,
+      refreshInSeconds: 60 * 60 * 8,
+      expires: 90,
+      src: 'aps'
+    });
+
+    my33AcrossIdProvider.fetch();
+  };
+  document.head.appendChild(lexiconScript);
+}
+})():(!undefined||undefined&&!undefined.includes("RO"))&&(function anonymous(
+) {
+var lexiconPropertyId = '0015a00002qqhqLAAQ';
+if (lexiconPropertyId && lexiconPropertyId.charAt(0) !== '%') {
+  if (!window._33AcrossIdMappingsProvider) {
+    createlexiconScript(lexiconPropertyId);
+  }
+}
+
+function createlexiconScript(id) {
+  var lexiconScript = document.createElement('script');
+  lexiconScript.src = 'https://cdn-ima.33across.com/ima.js';
+  lexiconScript['onload'] = function (e) {
+    const my33AcrossIdProvider = new _33AcrossIdMappingsProvider({
+      pid: id,
+      refreshInSeconds: 60 * 60 * 8,
+      expires: 90,
+      src: 'aps'
+    });
+
+    my33AcrossIdProvider.fetch();
+  };
+  document.head.appendChild(lexiconScript);
+}
+})()
+},"defaultPropertyId":"0015a00002qqhqLAAQ"});record("idVendors/integration/execute",{"accountId":"6d0c7ea7-f036-437d-be93-21fc59c890c2","sourceId":"600","countryCode":"RO","vendorId":"audigent","allowedRegions":undefined,"blockedRegions":["BR"],"vendorLoadedSampleRate":5,"domainPrecedence":[],"defaultScript":function anonymous(
+) {
+undefined?undefined.includes("RO")&&(function anonymous(
+) {
+var audigentPropertyId = '570';
+if (audigentPropertyId && audigentPropertyId.charAt(0) !== '%') {
+  (function (H, A, D, R, O, N, i, d) {
+    H[N] = H[N] || function () { (H[N].q = H[N].q || []).push(arguments) };
+    i = A.createElement(D); A.async = true;
+    i.src = R + "?url=" + encodeURIComponent(H.location.href) + "&ref=" + encodeURIComponent(A.referrer) +
+      "&_it=amazon&partner_id=" + O; d = A.getElementsByTagName(D)[0]; d.parentNode.insertBefore(i, d);
+  })(window, document, 'script', 'https://cdn.hadronid.net/hadron.js', audigentPropertyId, 'ha');
+}
+})():(!["BR"]||["BR"]&&!["BR"].includes("RO"))&&(function anonymous(
+) {
+var audigentPropertyId = '570';
+if (audigentPropertyId && audigentPropertyId.charAt(0) !== '%') {
+  (function (H, A, D, R, O, N, i, d) {
+    H[N] = H[N] || function () { (H[N].q = H[N].q || []).push(arguments) };
+    i = A.createElement(D); A.async = true;
+    i.src = R + "?url=" + encodeURIComponent(H.location.href) + "&ref=" + encodeURIComponent(A.referrer) +
+      "&_it=amazon&partner_id=" + O; d = A.getElementsByTagName(D)[0]; d.parentNode.insertBefore(i, d);
+  })(window, document, 'script', 'https://cdn.hadronid.net/hadron.js', audigentPropertyId, 'ha');
+}
+})()
+},"defaultPropertyId":"570"});record("idVendors/integration/execute",{"accountId":"6d0c7ea7-f036-437d-be93-21fc59c890c2","sourceId":"600","countryCode":"RO","vendorId":"id5","allowedRegions":undefined,"blockedRegions":["BR"],"vendorLoadedSampleRate":5,"domainPrecedence":[],"defaultScript":function anonymous(
+) {
+undefined?undefined.includes("RO")&&(function anonymous(
+) {
+var id5PropertyId = '341';
+if (id5PropertyId && id5PropertyId.charAt(0) !== '%') {
+    var id5Script = document.createElement('script');
+    id5Script.src = '//cdn.id5-sync.com/api/1.0/id5-api.js';
+    id5Script['onload'] = function(e) { 
+        ID5.init({ partnerId: Number(id5PropertyId) , provider: 'aps' })
+    };
+    document.head.appendChild(id5Script);
+}
+})():(!["BR"]||["BR"]&&!["BR"].includes("RO"))&&(function anonymous(
+) {
+var id5PropertyId = '341';
+if (id5PropertyId && id5PropertyId.charAt(0) !== '%') {
+    var id5Script = document.createElement('script');
+    id5Script.src = '//cdn.id5-sync.com/api/1.0/id5-api.js';
+    id5Script['onload'] = function(e) { 
+        ID5.init({ partnerId: Number(id5PropertyId) , provider: 'aps' })
+    };
+    document.head.appendChild(id5Script);
+}
+})()
+},"defaultPropertyId":"341"});record("idVendors/integration/execute",{"accountId":"6d0c7ea7-f036-437d-be93-21fc59c890c2","sourceId":"600","countryCode":"RO","vendorId":"liveRamp","allowedRegions":undefined,"blockedRegions":undefined,"vendorLoadedSampleRate":5,"domainPrecedence":[],"defaultScript":function anonymous(
+) {
+undefined?undefined.includes("RO")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveRamp__ = false;}})();
+})():(!undefined||undefined&&!undefined.includes("RO"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveRamp__ = false;}})();
+})()
+},"defaultPropertyId":"76"});record("idVendors/integration/execute",{"accountId":"6d0c7ea7-f036-437d-be93-21fc59c890c2","sourceId":"600","countryCode":"RO","vendorId":"lotame","allowedRegions":undefined,"blockedRegions":["BR"],"vendorLoadedSampleRate":5,"domainPrecedence":[],"defaultScript":function anonymous(
+) {
+undefined?undefined.includes("RO")&&(function anonymous(
+) {
+if (!window['lotame_sync_16576']) {
+  var lotameClientId = '16576';
+
+  initLotame(lotameClientId);
+  createLotameScript(lotameClientId);
+
+  function initLotame(propertyId) {
+    var lotameConfig = {};
+    var namespace = window['lotame_sync_' + propertyId] = {};
+    namespace.config = lotameConfig;
+    namespace.data = {};
+    namespace.cmd = namespace.cmd || [];
+
+    namespace.cmd.push(function () {
+      namespace.sync();
+    });
+  };
+
+  function createLotameScript(propertyId) {
+    var lotameSyncUrl = "https://tags.crwdcntrl.net/lt/c/" + propertyId + "/sync.min.js";
+    var lotameScriptTag = document.createElement('script');
+    lotameScriptTag.src = lotameSyncUrl;
+    document.head.appendChild(lotameScriptTag);
+  };
+}
+})():(!["BR"]||["BR"]&&!["BR"].includes("RO"))&&(function anonymous(
+) {
+if (!window['lotame_sync_16576']) {
+  var lotameClientId = '16576';
+
+  initLotame(lotameClientId);
+  createLotameScript(lotameClientId);
+
+  function initLotame(propertyId) {
+    var lotameConfig = {};
+    var namespace = window['lotame_sync_' + propertyId] = {};
+    namespace.config = lotameConfig;
+    namespace.data = {};
+    namespace.cmd = namespace.cmd || [];
+
+    namespace.cmd.push(function () {
+      namespace.sync();
+    });
+  };
+
+  function createLotameScript(propertyId) {
+    var lotameSyncUrl = "https://tags.crwdcntrl.net/lt/c/" + propertyId + "/sync.min.js";
+    var lotameScriptTag = document.createElement('script');
+    lotameScriptTag.src = lotameSyncUrl;
+    document.head.appendChild(lotameScriptTag);
+  };
+}
+})()
+},"defaultPropertyId":undefined});record("idVendors/integration/execute",{"accountId":"6d0c7ea7-f036-437d-be93-21fc59c890c2","sourceId":"600","countryCode":"RO","vendorId":"pubcommon","allowedRegions":undefined,"blockedRegions":["BR"],"vendorLoadedSampleRate":5,"domainPrecedence":[],"defaultScript":function anonymous(
+) {
+undefined?undefined.includes("RO")&&(function anonymous(
+) {
+if (!window.PublisherCommonId) {
+    var pubcommonScript = document.createElement('script');
+    pubcommonScript.src = '//secure.cdn.fastclick.net/js/pubcid/latest/pubcid.min.js';
+    document.head.appendChild(pubcommonScript);
+}
+})():(!["BR"]||["BR"]&&!["BR"].includes("RO"))&&(function anonymous(
+) {
+if (!window.PublisherCommonId) {
+    var pubcommonScript = document.createElement('script');
+    pubcommonScript.src = '//secure.cdn.fastclick.net/js/pubcid/latest/pubcid.min.js';
+    document.head.appendChild(pubcommonScript);
+}
+})()
+},"defaultPropertyId":undefined});record("idVendors/integration/execute",{"accountId":"6d0c7ea7-f036-437d-be93-21fc59c890c2","sourceId":"600","countryCode":"RO","vendorId":"confiant","allowedRegions":undefined,"blockedRegions":undefined,"vendorLoadedSampleRate":5,"domainPrecedence":[{"hostnames":["giochixl.it","journaldesfemmes.fr","favorflav.com","kfz-mag.de","paixnidiaxl.gr","yourlittleblackbook.me","10001games.fr","eclipsed.de","toolshero.nl","toolshero.es","springintveld.be","uitmetkinderen.nl","heures-douverture.com","androidplanet.nl","nrwhits.de","grajteraz.pl","mygames4girls.com","jeuxvideo.com","journaldunet.com","lepetitmoutard.be","mahjongspel.co","franska.nl","monstyle.nl","kindertube.nl","1001pelit.com","commentcamarche.net","1001jogos.pt","routenet.be","okokorecepten.nl","bbq-junkie.nl","metal.de","rincondelvago.com","spelo.se","wendyonline.nl","myrealpersonality.com","mijn-tv-gids.be","libero.it","openingsuren.com","mon-programme-tv.be","jeux.com","1001jogos.com.br","spillespill.no","tvblik.nl","linternaute.com","viamichelin.de","bbqproof.nl"],"script":function anonymous(
+) {
+undefined?undefined.includes("RO")&&(function anonymous(
+) {
+["window.creativeVendorLibraryLoaded = true;"]
+})():(!undefined||undefined&&!undefined.includes("RO"))&&(function anonymous(
+) {
+["window.creativeVendorLibraryLoaded = true;"]
+})()
+},"propertyId":"w8ID02crBiXNwSQ2giWKXbYqzXE"},{"hostnames":["dealmoon.ca","dealmoon.cn","dealmoon.fr","dealmoon.co.uk","dealmoon.com.au","dealmoon.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("RO")&&(function anonymous(
+) {
+["window.creativeVendorLibraryLoaded = true;"]
+})():(!undefined||undefined&&!undefined.includes("RO"))&&(function anonymous(
+) {
+["window.creativeVendorLibraryLoaded = true;"]
+})()
+},"propertyId":"5gyNtKPVwUM3CpvsU2y_15d5PCs"},{"hostnames":["laposte.net","lawsociety.org.uk"],"script":function anonymous(
+) {
+undefined?undefined.includes("RO")&&(function anonymous(
+) {
+["window.creativeVendorLibraryLoaded = true;"]
+})():(!undefined||undefined&&!undefined.includes("RO"))&&(function anonymous(
+) {
+["window.creativeVendorLibraryLoaded = true;"]
+})()
+},"propertyId":"tECgj_XbIQqtenHQqxKa3lwkXvk"},{"hostnames":["detsoteliv.no"],"script":function anonymous(
+) {
+undefined?undefined.includes("RO")&&(function anonymous(
+) {
+["window.creativeVendorLibraryLoaded = true;"]
+})():(!undefined||undefined&&!undefined.includes("RO"))&&(function anonymous(
+) {
+["window.creativeVendorLibraryLoaded = true;"]
+})()
+},"propertyId":"qudUjw9H_onsQbRCLU8djXfqc-Y"},{"hostnames":["gierkionline.pl","jatekokxl.hu"],"script":function anonymous(
+) {
+undefined?undefined.includes("RO")&&(function anonymous(
+) {
+["window.creativeVendorLibraryLoaded = true;"]
+})():(!undefined||undefined&&!undefined.includes("RO"))&&(function anonymous(
+) {
+["window.creativeVendorLibraryLoaded = true;"]
+})()
+},"propertyId":"tyYVhmpea6LObBWhHD3Tn0Z3p7o"},{"hostnames":["siliconinvestor.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("RO")&&(function anonymous(
+) {
+["window.creativeVendorLibraryLoaded = true;"]
+})():(!undefined||undefined&&!undefined.includes("RO"))&&(function anonymous(
+) {
+["window.creativeVendorLibraryLoaded = true;"]
+})()
+},"propertyId":"YIgdww9qqVRyhLXqaWJP39F_tAk"},{"hostnames":["civitai.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("RO")&&(function anonymous(
+) {
+["window.creativeVendorLibraryLoaded = true;"]
+})():(!undefined||undefined&&!undefined.includes("RO"))&&(function anonymous(
+) {
+["window.creativeVendorLibraryLoaded = true;"]
+})()
+},"propertyId":"ezshcwbpGoI4-nJcaFHbuQ0d67U"},{"hostnames":["photopea.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("RO")&&(function anonymous(
+) {
+["window.creativeVendorLibraryLoaded = true;"]
+})():(!undefined||undefined&&!undefined.includes("RO"))&&(function anonymous(
+) {
+["window.creativeVendorLibraryLoaded = true;"]
+})()
+},"propertyId":"Sw4DFSQ-ROYCToYyYCZsPIQZVaY"},{"hostnames":["larrybrownsports.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("RO")&&(function anonymous(
+) {
+["window.creativeVendorLibraryLoaded = true;"]
+})():(!undefined||undefined&&!undefined.includes("RO"))&&(function anonymous(
+) {
+["window.creativeVendorLibraryLoaded = true;"]
+})()
+},"propertyId":"eQyyuCOo1LkulCWxZwn2DDviViI"},{"hostnames":["tvinfo.de"],"script":function anonymous(
+) {
+undefined?undefined.includes("RO")&&(function anonymous(
+) {
+["window.creativeVendorLibraryLoaded = true;"]
+})():(!undefined||undefined&&!undefined.includes("RO"))&&(function anonymous(
+) {
+["window.creativeVendorLibraryLoaded = true;"]
+})()
+},"propertyId":"ivVfKUhcCsob3pftJNq4Ryif0F8"},{"hostnames":["itavisen.no"],"script":function anonymous(
+) {
+undefined?undefined.includes("RO")&&(function anonymous(
+) {
+["window.creativeVendorLibraryLoaded = true;"]
+})():(!undefined||undefined&&!undefined.includes("RO"))&&(function anonymous(
+) {
+["window.creativeVendorLibraryLoaded = true;"]
+})()
+},"propertyId":"jJ49699bYDDd34_vBAUHHedlneg"},{"hostnames":["computerbase.de"],"script":function anonymous(
+) {
+undefined?undefined.includes("RO")&&(function anonymous(
+) {
+["window.creativeVendorLibraryLoaded = true;"]
+})():(!undefined||undefined&&!undefined.includes("RO"))&&(function anonymous(
+) {
+["window.creativeVendorLibraryLoaded = true;"]
+})()
+},"propertyId":"HBu8T3VxDgBx3NedkCHC4wLqczo"},{"hostnames":["dealnews.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("RO")&&(function anonymous(
+) {
+["window.creativeVendorLibraryLoaded = true;"]
+})():(!undefined||undefined&&!undefined.includes("RO"))&&(function anonymous(
+) {
+["window.creativeVendorLibraryLoaded = true;"]
+})()
+},"propertyId":"VEKA5cR_VqQxK8cOlr9hwaqLsmM"},{"hostnames":["sosialnytt.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("RO")&&(function anonymous(
+) {
+["window.creativeVendorLibraryLoaded = true;"]
+})():(!undefined||undefined&&!undefined.includes("RO"))&&(function anonymous(
+) {
+["window.creativeVendorLibraryLoaded = true;"]
+})()
+},"propertyId":"dI1ER42y2tnLWHg_539F0jBwq5A"},{"hostnames":["spiele-umsonst.de"],"script":function anonymous(
+) {
+undefined?undefined.includes("RO")&&(function anonymous(
+) {
+["window.creativeVendorLibraryLoaded = true;"]
+})():(!undefined||undefined&&!undefined.includes("RO"))&&(function anonymous(
+) {
+["window.creativeVendorLibraryLoaded = true;"]
+})()
+},"propertyId":"ykq4g__JeV9ICzjX2O9VQ48uW50"},{"hostnames":["landsend.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("RO")&&(function anonymous(
+) {
+["window.creativeVendorLibraryLoaded = true;"]
+})():(!undefined||undefined&&!undefined.includes("RO"))&&(function anonymous(
+) {
+["window.creativeVendorLibraryLoaded = true;"]
+})()
+},"propertyId":"iCoTxtcVTnWHXhPYuWry_EG2EhE"},{"hostnames":["novelupdates.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("RO")&&(function anonymous(
+) {
+["window.creativeVendorLibraryLoaded = true;"]
+})():(!undefined||undefined&&!undefined.includes("RO"))&&(function anonymous(
+) {
+["window.creativeVendorLibraryLoaded = true;"]
+})()
+},"propertyId":"3SwKE1FQaaDlaAjgRZ402tsmLQ4"},{"hostnames":["fotor.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("RO")&&(function anonymous(
+) {
+["window.creativeVendorLibraryLoaded = true;"]
+})():(!undefined||undefined&&!undefined.includes("RO"))&&(function anonymous(
+) {
+["window.creativeVendorLibraryLoaded = true;"]
+})()
+},"propertyId":"RgyuNnjAHiy2Bl7y3z8kPdr2qMg"},{"hostnames":["mapchart.net"],"script":function anonymous(
+) {
+undefined?undefined.includes("RO")&&(function anonymous(
+) {
+["window.creativeVendorLibraryLoaded = true;"]
+})():(!undefined||undefined&&!undefined.includes("RO"))&&(function anonymous(
+) {
+["window.creativeVendorLibraryLoaded = true;"]
+})()
+},"propertyId":"gHs5uqEzX_d4JtIUqdLsURY5w7Q"}],"defaultScript":function anonymous(
+) {
+undefined?undefined.includes("RO")&&(function anonymous(
+) {
+["window.creativeVendorLibraryLoaded = true;"]
+})():(!undefined||undefined&&!undefined.includes("RO"))&&(function anonymous(
+) {
+["window.creativeVendorLibraryLoaded = true;"]
+})()
+},"defaultPropertyId":"rTaf_TTBDIbhzJGlbtFKLbQ5Abs"});record("_config/config/didLoad",undefined)}catch(e){console.error(e)}})();
